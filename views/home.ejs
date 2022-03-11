@@ -1,0 +1,88 @@
+<%- include("partials/header") -%>
+ 
+
+    <!-- card -->
+    <div class="columns is-centered mt-5">
+      <div class="card column is-half">
+
+        
+         
+        
+
+
+<!-- Log in segment-->
+<div class="card-content">
+  <div class="content">
+    <p class="has-text-info has-text-weight-bold is-size-4 mb-4">
+      Login</p>
+      <p class="help">Don't have an account? <a href="">Sign Up</a>.
+<form action="/toric" method="get" id="login">
+        <div class="field">
+          <p class="control has-icons-left has-icons-right">
+            <input id="email" class="input" type="email" placeholder="Email" required style="width: 100%;">
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+          </p>
+        </div>
+
+
+        <div class="field">
+          <p class="control has-icons-left">
+            <input id="password" class="input" type="password" placeholder="Password" required style="width: 100%;">
+            <span class="icon is-small is-left">
+              <i class="fas fa-lock"></i>
+            </span>
+          </p>
+          <a class="help" href="">Forgot your password?</a>
+        </div>
+
+
+
+        <p>
+          <input type="checkbox" required />
+          I agree to the terms and conditions.  
+          <!-- <a href="#">Learn More</a>. -->
+        </p>
+
+      
+          
+        </p> 
+
+        <div class="field">
+          <p class="control">
+            <button type="submit" form="login" value="Submit" class="button is-info">
+              Login
+            </button>
+          </p>
+        </div>
+       
+       
+            <div class="py-2">
+              
+              <p class="is-size-7 mt-5">Disclaimer goes here.</p>
+              
+            </div>
+            
+          </form>
+          
+
+
+          </div>
+        </div>
+
+
+        <!-- <footer class="card-footer">
+          <a href="/toric" class="card-footer-item has-text-weight-bold"
+            >Toric Formula</a
+          >
+          <a href="/non-toric" class="card-footer-item has-text-weight-bold"
+            >Non-Toric Formula</a
+          >
+        </footer> -->
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
